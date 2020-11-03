@@ -20,8 +20,8 @@ public class PrintStars {
         System.out.println("****");
         System.out.println("*****");
          */
-        for (int i = 1; i < line; i++) {
-            for (int j = 1; j <= j; j++) {
+        for (int i = 1; i <= line; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
