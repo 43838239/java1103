@@ -29,4 +29,11 @@ public class Account {
     void printBalance() {
         System.out.printf("name: %s, balance: %,d\n", name, balance);
     }
+    //轉帳
+    void transfer(int money, Account ac ){
+        
+        
+        
+        
+    }
 }
