@@ -15,7 +15,7 @@ public class SetMeal {
     }
 
     public int getSum() {
-        return sum;
+        return sum;//回傳sum
     }
 
     public Hamburger getHamburger() {

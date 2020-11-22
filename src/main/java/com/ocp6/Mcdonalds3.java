@@ -17,11 +17,11 @@ public class Mcdonalds3 {
         SetMeal stwo = new SetMeal(h2, s2, d2);
         
         SetMeal[] setMeals = {sone, stwo};
-        int sum = 0;
-        for(SetMeal setMeal : setMeals) {
-            sum += setMeal.getSum();
+        int sum = 0;//起始值
+        for(SetMeal setMeal : setMeals) {//
+            sum += setMeal.getSum();//sum=加總 +=累加
         }
         System.out.printf("總金額: $%d\n", sum);
-        System.out.println(Arrays.toString(setMeals));
+        System.out.println(Arrays.toString(setMeals));//
     }
 }

@@ -1,7 +1,7 @@
 package com.ocp6;
 
 public class SideMeal {
-    private String name;
+    private String name;//3種物件
     private String size;
     private int price;
     // 建構子
