@@ -1,7 +1,5 @@
 package com.ocp10.pet.entity;
 
-import com.ocp10.pet.entity.Dog;
-
 public class Shiba extends Dog {
     private int price;
 

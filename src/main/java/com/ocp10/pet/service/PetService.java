@@ -74,7 +74,7 @@ public class PetService {
         }
     }
     //印出最高寵物價位
-    public viod printMaxPriceByPet(Pet[] pets) {
+    public void printMaxPriceByPet(Pet[] pets) {
         Pet p = null;
         for(Pet pet : pets) {
             if(p == null) {
@@ -87,6 +87,7 @@ public class PetService {
                 
             }
         }
-        System.out.printf("最高價寵物");
+        System.out.printf("最高價寵物: %s 價格: %,d\n",
+                p.getClass().getSimpleName(), p.getPrice());
     }
 }
