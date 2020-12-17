@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ocp11.case3_一般內部類別;
 
-/**
- *
- * @author user
- */
 public class Bar {
-    
+    int x = 1000;
+    public class Foo {
+        int x = 100;
+        public void printMe() {
+            int x = 10;
+            System.out.println("I am Foo");
+            System.out.println(x);
+            System.out.println(this.x);
+            System.out.println(Bar.this.x);
+        }
+    }
 }
